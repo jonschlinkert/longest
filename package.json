@@ -1,0 +1,27 @@
+{
+  "name": "longest",
+  "version": "0.1.0",
+  "description": "Get the length of the longest item in an array.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonschlinkert/longest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/longest/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonschlinkert/longest/blob/master/LICENSE-MIT"
+    }
+  ],
+  "devDependencies": {
+    "mocha": "~1.17.0",
+    "chai": "~1.8.1",
+    "fs-utils": "~0.1.4"
+  }
+}
