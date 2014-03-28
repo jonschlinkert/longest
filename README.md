@@ -15,6 +15,19 @@ Install with [bower](https://github.com/bower/bower)
 bower install longest --save
 ```
 
+## Usage
+
+```js
+var longest = require('longest');
+var arr = ['a', 'bb', 'ccc'];
+console.log(longest(arr));
+//=> ccc
+
+console.log(longest(arr).length);
+//=> 3
+```
+
+
 ## Author
 
 **Jon Schlinkert**
@@ -23,5 +36,5 @@ bower install longest --save
 + [twitter/jonschlinkert](http://twitter.com/jonschlinkert)
 
 ## License
-Copyright (c) 2014 Jon Schlinkert, Brian Woodward, contributors.
+Copyright (c) 2014 Jon Schlinkert, contributors.
 Released under the MIT license

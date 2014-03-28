@@ -1,6 +1,6 @@
 {
   "name": "longest",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "Get the length of the longest item in an array.",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,6 @@
   ],
   "devDependencies": {
     "mocha": "~1.17.0",
-    "chai": "~1.8.1",
-    "fs-utils": "~0.1.4"
+    "chai": "~1.8.1"
   }
 }

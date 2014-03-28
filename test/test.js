@@ -1,18 +1,14 @@
 /**
- * Longest
+ * logest item in an array
  * Copyright (c) 2014 Jon Schlinkert <https://github.com/jonschlinkert>
  * Licensed under the MIT License (MIT).
  */
 
 // node_modules
-var file = require('fs-utils');
+var fs = require('fs');
 var expect = require('chai').expect;
-
-// Local lib
 var longest = require('../');
-
-var fixtures = require('path').join.bind(null, __dirname, 'fixtures');
-var arr = file.readJSONSync(fixtures('arr.json'));
+var arr = JSON.parse(fs.readFileSync('test/fixtures/arr.json').toString());
 
 // Tests
 describe('longest', function() {
