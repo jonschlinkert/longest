@@ -1,10 +1,11 @@
 {
   "name": "longest",
-  "version": "0.2.1",
-  "description": "Get the length of the longest item in an array.",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha"
+  "version": "0.3.0",
+  "description": "Get the longest item in an array.",
+  "homepage": "https://github.com/jonschlinkert/longest",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
   },
   "repository": {
     "type": "git",
@@ -13,14 +14,31 @@
   "bugs": {
     "url": "https://github.com/jonschlinkert/longest/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/jonschlinkert/longest/blob/master/LICENSE-MIT"
-    }
-  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/longest/blob/master/LICENSE-MIT"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
   "devDependencies": {
-    "mocha": "~1.17.0",
-    "chai": "~1.8.1"
-  }
+    "fill-range": "^0.2.0",
+    "mocha": "*",
+    "should": "^4.3.0"
+  },
+  "keywords": [
+    "array",
+    "element",
+    "item",
+    "javascript",
+    "long",
+    "longest",
+    "util",
+    "utility",
+    "utils"
+  ]
 }
