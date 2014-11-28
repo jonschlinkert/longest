@@ -1,24 +1,37 @@
 /**
- * longest item in an array
- * Copyright (c) 2014 Jon Schlinkert, contributors.
+ * longest <https://github.com/jonschlinkert/longest>
+ *
+ * Copyright (c) 2014 Jon Schlinkert
  * Licensed under the MIT license.
  */
 
 'use strict';
 
 module.exports = function(arr) {
-  var c = 0,
-    len = 0,
-    l = 0,
-    idx = arr.length;
-  if (idx) {
-    while (idx--) {
-      len = arr[idx].length;
-      if (len > c) {
-        l = idx;
-        c = len;
-      }
+  if (!arr) {
+    return null;
+  }
+
+  var len = arr.length;
+  if (!len) {
+    return null;
+  }
+
+  var c = 0;
+  var i = 0;
+  var ele;
+  var elen;
+  var res;
+
+  for (; i < len; i++) {
+    ele = arr[i];
+    elen = ele.length;
+
+    if (elen > c) {
+      res = ele;
+      c = elen;
     }
   }
-  return arr[l];
+
+  return res;
 };
