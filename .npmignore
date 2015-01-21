@@ -9,3 +9,7 @@ temp
 TODO.md
 
 *.sublime-*
+
+# npmignore
+.*
+test.js
