@@ -19,6 +19,9 @@
     "url": "https://github.com/jonschlinkert/longest/blob/master/LICENSE-MIT"
   },
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "mocha"
   },
