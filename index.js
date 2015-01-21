@@ -1,7 +1,7 @@
 /**
  * longest <https://github.com/jonschlinkert/longest>
  *
- * Copyright (c) 2014 Jon Schlinkert
+ * Copyright (c) 2014-2015, Jon Schlinkert.
  * Licensed under the MIT license.
  */
 
