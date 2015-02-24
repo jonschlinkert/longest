@@ -1,4 +1,4 @@
-# longest [![NPM version](https://badge.fury.io/js/longest.svg)](http://badge.fury.io/js/longest)
+# longest [![NPM version](https://badge.fury.io/js/longest.svg)](http://badge.fury.io/js/longest)  [![Build Status](https://travis-ci.org/jonschlinkert/longest.svg)](https://travis-ci.org/jonschlinkert/longest) 
 
 > Get the longest item in an array.
 
