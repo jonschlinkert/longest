@@ -29,7 +29,7 @@
     "node": ">=0.10.0"
   },
   "devDependencies": {
-    "fill-range": "^1.4.0",
+    "fill-range": "^2.1.0",
     "mocha": "*"
   },
   "keywords": [
