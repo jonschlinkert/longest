@@ -1,10 +1,11 @@
-/**
+/*!
  * longest <https://github.com/jonschlinkert/longest>
  *
  * Copyright (c) 2014-2015, Jon Schlinkert.
- * Licensed under the MIT license.
+ * Licensed under the MIT License.
  */
 
+/* deps:mocha */
 var assert = require('assert');
 var expand = require('fill-range');
 var longest = require('./');
@@ -17,4 +18,4 @@ describe('longest', function() {
     assert.equal(longest(expand('0', '100')), '100');
     assert.equal(longest(expand('0', '1000')), '1000');
   });
-}); 
+});
