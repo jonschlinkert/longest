@@ -1,8 +1,8 @@
-/**
+/*!
  * longest <https://github.com/jonschlinkert/longest>
  *
  * Copyright (c) 2014-2015, Jon Schlinkert.
- * Licensed under the MIT license.
+ * Licensed under the MIT License.
  */
 
 'use strict';
@@ -24,7 +24,7 @@ module.exports = function(arr) {
   var res;
 
   for (; i < len; i++) {
-    ele = arr[i];
+    ele = arr[i].toString();
     elen = ele.length;
 
     if (elen > c) {
