@@ -17,7 +17,7 @@ module.exports = function(arr) {
     return null;
   }
 
-  var c = 0;
+  var c = -1;
   var i = 0;
   var ele;
   var elen;

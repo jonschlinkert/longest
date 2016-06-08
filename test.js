@@ -17,5 +17,6 @@ describe('longest', function() {
     assert.equal(longest(expand('0', '10')), '10');
     assert.equal(longest(expand('0', '100')), '100');
     assert.equal(longest(expand('0', '1000')), '1000');
+    assert.equal(longest(['']),'');
   });
 });
