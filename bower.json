@@ -1,20 +1,11 @@
 {
   "name": "longest",
   "description": "Get the longest item in an array.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jonschlinkert/longest.git"
-  },
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/jonschlinkert/longest/blob/master/LICENSE"
-  },
+  "repository": "jonschlinkert/longest",
+  "license": "MIT",
   "homepage": "https://github.com/jonschlinkert/longest",
   "authors": [
-    {
-      "name": "Jon Schlinkert",
-      "homepage": "https://github.com/jonschlinkert"
-    }
+    "Jon Schlinkert"
   ],
   "main": [
     "index.js"
@@ -27,11 +18,31 @@
     "array",
     "element",
     "item",
-    "javascript",
+    "length",
     "long",
-    "longest",
-    "util",
-    "utility",
-    "utils"
+    "longest"
+  ],
+  "version": "1.0.1",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/longest/issues"
+  },
+  "files": [
+    "index.js"
+  ],
+  "ignore": [
+    "actual",
+    "bower_components",
+    "fixtures",
+    "node_modules",
+    "temp",
+    "test",
+    "test.js",
+    "tmp"
+  ],
+  "contributors": [
+    "Jon Schlinkert <jon.schlinkert@sellside.com> (http://twitter.com/jonschlinkert)",
+    "Kevin Mårtensson <kevinmartensson@gmail.com> (https://github.com/kevva)",
+    "Kyle Mitchell <kyle@kemitchell.com> (https://kemitchell.com)",
+    "Shinnosuke Watanabe <snnskwtnb@gmail.com> (https://shinnn.github.io)"
   ]
 }

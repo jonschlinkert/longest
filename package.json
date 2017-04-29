@@ -3,14 +3,14 @@
   "description": "Get the longest item in an array.",
   "version": "1.0.1",
   "homepage": "https://github.com/jonschlinkert/longest",
-  "author": {
-    "name": "Jon Schlinkert",
-    "url": "https://github.com/jonschlinkert"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jonschlinkert/longest.git"
-  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "contributors": [
+    "Jon Schlinkert <jon.schlinkert@sellside.com> (http://twitter.com/jonschlinkert)",
+    "Kevin Mårtensson <kevinmartensson@gmail.com> (https://github.com/kevva)",
+    "Kyle Mitchell <kyle@kemitchell.com> (https://kemitchell.com)",
+    "Shinnosuke Watanabe <snnskwtnb@gmail.com> (https://shinnn.github.io)"
+  ],
+  "repository": "jonschlinkert/longest",
   "bugs": {
     "url": "https://github.com/jonschlinkert/longest/issues"
   },
@@ -33,8 +33,8 @@
     "array",
     "element",
     "item",
-    "long",
     "length",
+    "long",
     "longest"
   ]
 }
