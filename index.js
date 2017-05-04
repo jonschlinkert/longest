@@ -8,30 +8,34 @@
 'use strict';
 
 module.exports = function(arr) {
-  if (!arr) {
-    return null;
+  if (!Array.isArray(arr)) {
+    throw new TypeError('expected an array');
   }
 
   var len = arr.length;
-  if (!len) {
-    return null;
+  if (len === 0) {
+    return undefined;
   }
 
-  var c = 0;
-  var i = 0;
-  var ele;
-  var elen;
-  var res;
+  var val = arr[0];
+  var longest = val.length;
+  var idx = 0;
 
-  for (; i < len; i++) {
-    ele = arr[i].toString();
-    elen = ele.length;
+  while (++idx < len) {
+    var ele = arr[idx];
+    if (ele == null) {
+      continue;
+    }
 
-    if (elen > c) {
-      res = ele;
-      c = elen;
+    var elen = ele.length;
+    if (typeof elen !== 'number') {
+      continue;
+    }
+
+    if (elen > longest) {
+      longest = elen;
+      val = ele;
     }
   }
-
-  return res;
+  return val;
 };

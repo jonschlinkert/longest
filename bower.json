@@ -11,8 +11,8 @@
     "index.js"
   ],
   "devDependencies": {
-    "fill-range": "^2.1.0",
-    "mocha": "*"
+    "gulp-format-md": "^0.1.12",
+    "mocha": "^3.3.0"
   },
   "keywords": [
     "array",
@@ -40,9 +40,9 @@
     "tmp"
   ],
   "contributors": [
-    "Jon Schlinkert <jon.schlinkert@sellside.com> (http://twitter.com/jonschlinkert)",
-    "Kevin Mårtensson <kevinmartensson@gmail.com> (https://github.com/kevva)",
-    "Kyle Mitchell <kyle@kemitchell.com> (https://kemitchell.com)",
-    "Shinnosuke Watanabe <snnskwtnb@gmail.com> (https://shinnn.github.io)"
+    "Jon Schlinkert (http://twitter.com/jonschlinkert)",
+    "Kevin Mårtensson (https://github.com/kevva)",
+    "Kyle Mitchell (https://kemitchell.com)",
+    "Shinnosuke Watanabe (https://shinnn.github.io)"
   ]
 }
