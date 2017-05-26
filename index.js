@@ -18,6 +18,10 @@ module.exports = function(arr) {
   }
 
   var val = arr[0];
+  if (typeof val === 'number') {
+    val = String(val);
+  }
+
   var longest = val.length;
   var idx = 0;
 
@@ -25,6 +29,10 @@ module.exports = function(arr) {
     var ele = arr[idx];
     if (ele == null) {
       continue;
+    }
+
+    if (typeof ele === 'number') {
+      ele = String(ele);
     }
 
     var elen = ele.length;
