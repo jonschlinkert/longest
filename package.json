@@ -1,7 +1,7 @@
 {
   "name": "longest",
   "description": "Get the longest item in an array.",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "homepage": "https://github.com/jonschlinkert/longest",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "contributors": [
