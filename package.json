@@ -19,15 +19,19 @@
     "index.js"
   ],
   "main": "index.js",
+  "types": "index.d.ts",
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
+    "build": "tsc --declaration index.ts",
+    "pretest": "tsc index.ts",
     "test": "mocha"
   },
   "devDependencies": {
     "gulp-format-md": "^0.1.12",
-    "mocha": "^3.3.0"
+    "mocha": "^3.3.0",
+    "typescript": "^2.8.1"
   },
   "keywords": [
     "array",

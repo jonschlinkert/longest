@@ -5,9 +5,7 @@
  * Released under the MIT License.
  */
 
-'use strict';
-
-module.exports = function(arr) {
+export default function(arr:Array<string | number>) {
   if (!Array.isArray(arr)) {
     throw new TypeError('expected an array');
   }
