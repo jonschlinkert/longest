@@ -22,6 +22,10 @@ module.exports = function(arr) {
     val = String(val);
   }
 
+  if (len === 1) {
+    return val;
+  }
+
   var longest = val.length;
   var idx = 0;
 
